@@ -1,0 +1,51 @@
+.bokeh-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+
+.bokeh-circle {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(15px);
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  will-change: transform;
+  transition: background-color 0.5s ease;
+}
+
+
+
+.bokeh-circle.light {
+  background: rgba(65, 123, 250, 0.4); 
+  box-shadow: 0 0 10px rgba(100, 150, 255, 0.3);
+}
+
+
+.bokeh-circle.dark {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 15px rgba(100, 150, 255, 0.3);
+}
+
+
+.bokeh-circle.small {
+  width: 50px;
+  height: 50px;
+}
+
+.bokeh-circle.medium {
+  width: 100px;
+  height: 100px;
+}
+
+.bokeh-circle.large {
+  width: 150px;
+  height: 150px;
+}
