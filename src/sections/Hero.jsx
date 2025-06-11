@@ -77,14 +77,14 @@ const Hero = () => {
 
       <div className="flex gap-4 z-10">
         <a
-          href="/Kaushal_Resume.pdf"
+          href="/Portfolio/Kaushal_Resume.pdf"
           download
           className="bg-blue-500 px-6 py-2 rounded text-white hover:bg-blue-600 transition"
         >
           Download Resume
         </a>
         <a
-          href="/Kaushal_Resume.pdf"
+          href="/Portfolio/Kaushal_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-blue-500 px-6 py-2 rounded text-blue-500 hover:bg-blue-500 hover:text-white transition"
