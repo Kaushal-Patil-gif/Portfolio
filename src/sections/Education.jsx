@@ -19,9 +19,8 @@ const Education = () => {
       place: 'Sinhgad College of Science, SPPU',
       date: '2020 - 2023',
       description: 'Graduated with Grade A+',
-    },
+    }
     
-   
   ];
 
   return (
