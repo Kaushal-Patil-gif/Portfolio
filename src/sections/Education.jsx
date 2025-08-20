@@ -2,6 +2,12 @@ import TimelineItem from '../components/TimelineItem';
 
 const Education = () => {
   const education = [
+     {
+      title: 'CDAC',
+      place: 'Kharghar, Mumbai',
+      date: '2025-2026',
+      description: 'Ongoing',
+    },
     {
       title: 'Masters in Computer Applications',
       place: 'Arka Jain University',
@@ -14,12 +20,7 @@ const Education = () => {
       date: '2020 - 2023',
       description: 'Graduated with Grade A+',
     },
-     {
-      title: 'XII (Computer Science)',
-      place: 'Nashik Board',
-      date: '2019 - 2020',
-      description: 'Secured 64.46%',
-    },
+    
    
   ];
 
